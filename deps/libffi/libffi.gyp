@@ -74,7 +74,7 @@
               '<(INTERMEDIATE_DIR)/<(RULE_INPUT_ROOT).asm',
             ],
             'action': [
-              'preprocess_asm.cmd',
+              '../../../deps/libffi/preprocess_asm.cmd',
                 'include',
                 'config/<(OS)/<(target_arch)',
                 '<(RULE_INPUT_PATH)',
